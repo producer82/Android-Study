@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
+    private String[] myDataset;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
